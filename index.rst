@@ -1,9 +1,9 @@
-.. sphinx_sample documentation master file, created by
-   sphinx-quickstart on Sun Jul 22 22:52:40 2012.
+.. sphinx-sample documentation master file, created by
+   sphinx-quickstart on Sun Jul 22 23:01:01 2012.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to sphinx_sample's documentation!
+Welcome to sphinx-sample's documentation!
 =========================================
 
 Contents:

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# sphinx_sample documentation build configuration file, created by
-# sphinx-quickstart on Sun Jul 22 22:52:40 2012.
+# sphinx-sample documentation build configuration file, created by
+# sphinx-quickstart on Sun Jul 22 23:01:01 2012.
 #
 # This file is execfile()d with the current directory set to its containing dir.
 #
@@ -40,7 +40,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'sphinx_sample'
+project = u'sphinx-sample'
 copyright = u'2012, sinsoku'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -64,7 +64,7 @@ release = '1.0.0'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = []
+exclude_patterns = ['_build']
 
 # The reST default role (used for this markup: `text`) to use for all documents.
 #default_role = None
@@ -164,7 +164,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'sphinx_sampledoc'
+htmlhelp_basename = 'sphinx-sampledoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -183,7 +183,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'sphinx_sample.tex', u'sphinx\\_sample Documentation',
+  ('index', 'sphinx-sample.tex', u'sphinx-sample Documentation',
    u'sinsoku', 'manual'),
 ]
 
@@ -213,7 +213,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'sphinx_sample', u'sphinx_sample Documentation',
+    ('index', 'sphinx-sample', u'sphinx-sample Documentation',
      [u'sinsoku'], 1)
 ]
 
@@ -227,8 +227,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'sphinx_sample', u'sphinx_sample Documentation',
-   u'sinsoku', 'sphinx_sample', 'One line description of project.',
+  ('index', 'sphinx-sample', u'sphinx-sample Documentation',
+   u'sinsoku', 'sphinx-sample', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -240,46 +240,3 @@ texinfo_documents = [
 
 # How to display URL addresses: 'footnote', 'no', or 'inline'.
 #texinfo_show_urls = 'footnote'
-
-
-# -- Options for Epub output ---------------------------------------------------
-
-# Bibliographic Dublin Core info.
-epub_title = u'sphinx_sample'
-epub_author = u'sinsoku'
-epub_publisher = u'sinsoku'
-epub_copyright = u'2012, sinsoku'
-
-# The language of the text. It defaults to the language option
-# or en if the language is not set.
-#epub_language = ''
-
-# The scheme of the identifier. Typical schemes are ISBN or URL.
-#epub_scheme = ''
-
-# The unique identifier of the text. This can be a ISBN number
-# or the project homepage.
-#epub_identifier = ''
-
-# A unique identification for the text.
-#epub_uid = ''
-
-# A tuple containing the cover image and cover page html template filenames.
-#epub_cover = ()
-
-# HTML files that should be inserted before the pages created by sphinx.
-# The format is a list of tuples containing the path and title.
-#epub_pre_files = []
-
-# HTML files shat should be inserted after the pages created by sphinx.
-# The format is a list of tuples containing the path and title.
-#epub_post_files = []
-
-# A list of files that should not be packed into the epub file.
-#epub_exclude_files = []
-
-# The depth of the table of contents in toc.ncx.
-#epub_tocdepth = 3
-
-# Allow duplicate toc entries.
-#epub_tocdup = True
