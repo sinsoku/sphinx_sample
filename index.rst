@@ -24,9 +24,4 @@ Indices and tables
 Read the Docs
 =============
 
-sample description ...
-
-FooBar
-======
-
-aaaa bbb ccc ddd e f
+add develop branch
