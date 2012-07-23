@@ -5,4 +5,4 @@ install: pip install -r requirements.txt --use-mirrors
 script: env
 notifications:
   email: false
-  webhooks: http://cryptic-bayou-8333.herokuapp.com/travis_ci_notifications
+  webhooks: http://cryptic-bayou-8333.herokuapp.com/travis_ci_notifications.json
