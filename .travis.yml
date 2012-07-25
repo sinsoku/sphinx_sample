@@ -5,4 +5,4 @@ python:
 script: env
 notifications:
   email: false
-  webhooks: http://cryptic-bayou-8333.herokuapp.com/travis_ci_notifications.json
+  webhooks: http://cryptic-bayou-8333.herokuapp.com/travis_ci_notifications
